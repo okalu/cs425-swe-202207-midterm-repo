@@ -1,0 +1,10 @@
+git clone https://github.com/deediana/cs425-swe-202207-midterm-repo.git
+git branch
+git checkout -b dianakihembo_products-mgmt
+git add .
+git commit -m "added Product file"
+git add .
+git commit -m "added commands file"
+git merge dianakihembo_producs-mgmt
+git push origin main
+
