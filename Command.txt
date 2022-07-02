@@ -1,0 +1,10 @@
+git init
+git clone https://github.com/youssefimajat/cs425-swe-202207-midterm-repo
+git branch youssef-imajat_products-mgmt
+git checkout youssef-imajat_products-mgmt 
+git status
+git add product.java
+git commit-m "commit midterm"
+git checkout main
+git merge youssef-imajat_products-mgmtgit push origin main
+git push --set-upstream origin youssef-imajat_products-mgmt
